@@ -87,6 +87,7 @@ for more information.
 `export TEMPORARY_DISABLE_PATH_RESTRICTIONS=true`  
 安卓10开始将限制主机的构建工具的使用  
 这条可以加到`~/.bashrc`里  
+注:在安卓11上`export TEMPORARY_DISABLE_PATH_RESTRICTIONS=true`可能没用,建议参考这个[commit](https://github.com/AICP/build_soong/commit/66ff081b15a7b95951c31b42f91c8017ebd6cac7)修改源代码  
 
 ---
 #### 错误  
